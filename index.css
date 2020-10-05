@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+
+}
+h1, h2, h3 {
+  font-family: "Nunito";
+}.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer {
+  background-image: linear-gradient(#5595d1, white);
+  padding: 20px 0;
+}
+
+
+.top-bar {
+  background: #334f70 ;
+  height: 3rem;
+  padding: 0.5rem;
+  color: white;
+  text-decoration:none;
+  font-size: 1.2rem;
+}
+/*--end top bar--*/
+
+/*--Navigation bar --*/
+.navbar-brand {
+  height: 6rem;
+}
+#logo {
+  width: 100px;
+  height: 95px;
+}
+.bg-dark{
+  background-color: #5595d1 !important;
+}
+.navbar {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  padding-right:0.5rem;
+}
+.nav-link{
+  padding-top: 0.8rem;
+color:#334f70 !important;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: white!important;
+}
